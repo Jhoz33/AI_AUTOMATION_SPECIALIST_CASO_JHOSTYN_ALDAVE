@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro de Transacciones AI</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f9; }
+        .container { max-width: 600px; margin: auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        input, button { padding: 10px; margin-top: 10px; }
+        button { background-color: #0056b3; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #004494; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>¡Hola Mundo! - Procesador de Transacciones</h1>
+    <p>Sube tu archivo PDF para que la IA extraiga y verifique la transacción.</p>
+    
+    <form id="uploadForm">
+        <input type="file" id="pdfFile" accept="application/pdf" required>
+        <br>
+        <button type="submit">Procesar PDF</button>
+    </form>
+    
+    <p id="status"></p>
+</div>
+
+<script>
+    document.getElementById('uploadForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const fileInput = document.getElementById('pdfFile');
+        const statusText = document.getElementById('status');
+        
+        if(fileInput.files.length > 0) {
+            statusText.textContent = "Simulando envío al servidor... (Aún necesitamos crear el backend)";
+            // Aquí irá la lógica para enviar el archivo al servidor mediante fetch()
+        }
+    });
+</script>
+
+</body>
+</html>
