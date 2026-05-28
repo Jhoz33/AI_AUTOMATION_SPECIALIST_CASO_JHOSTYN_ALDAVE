@@ -1,0 +1,21 @@
+{
+  "name": "ai_automation_specialist_caso_jhostyn_aldave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhoz33/AI_AUTOMATION_SPECIALIST_CASO_JHOSTYN_ALDAVE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jhoz33/AI_AUTOMATION_SPECIALIST_CASO_JHOSTYN_ALDAVE/issues"
+  },
+  "homepage": "https://github.com/Jhoz33/AI_AUTOMATION_SPECIALIST_CASO_JHOSTYN_ALDAVE#readme"
+}
